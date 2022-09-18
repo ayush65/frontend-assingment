@@ -1,5 +1,27 @@
-.App {
+/** @format */
+
+.app {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 2px solid black;
+}
+
+.graph {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.btn-menu {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-bottom: 3rem;
 }
 
 .App-logo {
